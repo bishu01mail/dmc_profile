@@ -1,0 +1,181 @@
+.csp_headItems{
+    background-color: #e4e4e4;
+    font-size: 18px;
+    color: #949494;
+    text-transform: capitalize;
+    transition: all .3s;
+    span{
+        color: #424242;
+        font-weight: bold;
+    }
+    &:hover{
+        background-color: rgba(210,210,210, 1);
+        cursor: pointer;
+    }
+}
+.csp_headerRow{
+    border-bottom: 5px solid #000;
+    .col-lg-2{
+        padding-left: 0;
+        padding-right: 5px;
+        &:last-child{
+            padding-right: 0;
+        }
+    }
+}
+.csp_cf_sub{
+    .csp_cf_sub_item{
+        background-color: #e4e4e4;
+        color: #424242;
+        border-radius: 4px;
+        // font-weight: bold;
+    }
+    .col-lg-6{
+        padding-left: 0;
+        padding-right: 5px;
+        border-radius: 8px;
+    }
+}
+
+.csp_ideasImg{
+    width: 92%;
+    background: url(../img/csf_graphics.png) no-repeat;
+    background-size: 85% auto;
+    background-position: 40% 0;
+    .csp_ideaItem{
+        min-height: 450px;
+        // margin-right: 10px;
+        position: relative;
+        padding: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        &:nth-child(1){
+            width: 16%;
+            .csp_grapIdeaContent{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            &:hover{
+                background-color: unset;
+            }
+        }
+        &:nth-child(2){
+            width: 12%;
+            .csp_grapIdeaContent{
+                position: absolute;
+                top: 15%;
+            }
+        }
+        &:nth-child(3){
+            width: 26%;
+            .csp_grapIdeaContent{
+                width: unset;
+                background-color: unset;
+                position: absolute;
+                top: -50px;
+                font-weight: bold;
+            }
+            &:hover{
+                background-color: unset;
+            }
+        }
+        &:nth-child(4){
+            width: 26%;
+            .csp_grapIdeaContent{
+                width: unset;
+                background-color: unset;
+                position: absolute;
+                top: -50px;
+                font-weight: bold;
+            }
+            &:hover{
+                background-color: unset;
+            }
+        }
+        &:nth-child(5){
+            width: 16%;
+            .csp_grapIdeaContent{
+                position: absolute;
+                top: 25%;
+            }
+            &:hover{
+                background-color: unset;
+            }
+        }
+        transition: all .3s;
+        &:hover{
+            background-color: rgba(210, 210, 210, 0.7);
+        }
+        // background-color: #d2d2d2;
+    }
+
+}
+.csp_ideasImg_area{
+    position: relative;
+}
+.csf_graphics{
+    position: absolute;
+    z-index: 2;
+    left: 5%;
+    bottom: 0;
+    width: 80%;
+}
+.csp_grapIdeaContent{
+    width: 130px;
+    text-align: center;
+    background-color: #c5c5c5;
+}
+.csp_modal{
+    .modal-dialog{
+        top: 50%;
+        transform: translateY(-50%) !important;
+    }
+    .modal-content{
+        border: unset;
+        background-color: transparent;
+    }
+    .modal-body{
+        padding: 0;
+    }
+    .btn-close{
+        background: unset;
+        width: 50px;
+        z-index: 2;
+        svg{
+           path{
+               fill: red;
+           }
+        }
+    }
+}
+.csp_bun_close{
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+.csp_modal_video{
+    width: 100%;
+}
+.csp_videosPlay_Links{
+    position: absolute;
+    left: -260px;
+    width: 250px;
+    transition: all .5s;
+    color: #fff;
+    background-color: #4472c4;
+    div{
+        cursor: pointer;
+        line-height: 18px;
+        font-size: 14px;
+        &:hover{
+            background-color: #306ed8;
+        }
+    }
+}
+
+@media (min-width: 576px){
+    .modal-dialog{
+        max-width: 50%;
+    }
+}
