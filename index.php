@@ -1,3 +1,5 @@
+<?php session_start(); ; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -440,42 +442,42 @@
                     <div class="defultIcon_area">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 461.001 461.001" style="enable-background:new 0 0 461.001 461.001;" xml:space="preserve">
-                      <g>
-                        <path d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728
-                          c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137
-                          C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607
-                          c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"/>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
-                      <g>
-                      </g>
+                        <g>
+                          <path d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728
+                            c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137
+                            C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607
+                            c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"/>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
                       </svg>                      
                         <p>
                           YouTube
@@ -486,26 +488,33 @@
               </div>
               <div class="contact_form_ p-5 mt-5 mt-lg-0" >
                 <h3 class='mb-4'>Just do it. no reason not too.</h3>
-                <form action="" id="submitContactForm">
+                <?php 
+                if(isset($_SESSION["errorMsg"])){
+                ?>
+                <div class="alert alert-danger" role="alert">
+                  <?php echo $_SESSION["errorMsg"]; ?>
+                </div>
+                <?php } ?>
+                <form action="<?php echo htmlspecialchars('mail.php') ?>" method="post" id="submitContactForm">
                   <div class="row">
                     <div class="col-lg-6">
-                      <input type="text" class="contact_form_input form-control" placeholder="First name" aria-label="First name" />
+                      <input type="text" class="contact_form_input form-control" name="firstName" placeholder="First name" aria-label="First name"  />
                     </div>
                     <div class="col-lg-6 mt-4 mt-lg-0">
-                      <input type="text" class="contact_form_input form-control" placeholder="Last name" aria-label="last name" />
+                      <input type="text" class="contact_form_input form-control" name="lastName" placeholder="Last name" aria-label="last name" />
                     </div>
                   </div>
                   <div class="row mt-4">
                     <div class="col-lg-6">
-                      <input type="text" class="contact_form_input form-control" placeholder="Email" aria-label="First name" />
+                      <input type="text" class="contact_form_input form-control" name="email" placeholder="Email" aria-label="First name"  />
                     </div>
                     <div class="col-lg-6 mt-4 mt-lg-0">
-                      <input type="text" class="contact_form_input form-control" placeholder="Phone" aria-label="last name" />
+                      <input type="text" class="contact_form_input form-control" name="phoneNumber" placeholder="Phone" aria-label="last name"  />
                     </div>
                   </div>
                   <div class="row mt-4">
                     <div class="col-lg-12">
-                      <textarea class="contact_form_input form-control" placeholder="Message" id="floatingTextarea2" style="height: 150px" ></textarea>
+                      <textarea class="contact_form_input form-control" name="message" placeholder="Message" id="floatingTextarea2" style="height: 150px" ></textarea>
                     </div>
                   </div>
                   <div class="row mt-4">
@@ -560,7 +569,7 @@
                    </a></li>
                    <li><a >
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 461.001 461.001" style="enable-background:new 0 0 461.001 461.001;" xml:space="preserve">
+                        viewBox="0 0 461.001 461.001" style="enable-background:new 0 0 461.001 461.001;" xml:space="preserve">
                         <g>
                           <path d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728
                             c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137
@@ -603,7 +612,8 @@
           </div>
        </footer>
       </div>
-
+        <?php session_destroy() ; ?>
+        
 <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></Script>
 <script src="js/custom.js"></script>
 </body>

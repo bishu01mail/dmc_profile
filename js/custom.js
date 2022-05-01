@@ -3,7 +3,7 @@ const mobileDrawer = document.querySelector(".mobile_nav");
 const body = document.querySelector("body");
 const csp_bun_close = document.querySelectorAll(".csp_bun_close");
 const modal = document.querySelectorAll(".modal");
-const submitContactForm = document.querySelector("#submitContactForm")
+const submitContactForm = document.querySelector("#submitContactForm");
 
 function drawer(props){
     
@@ -24,9 +24,9 @@ function cspVideo(videoUrl){
 
 }
 
-submitContactForm.addEventListener("submit", function(event){
-    event.preventDefault();
-})
+// submitContactForm.addEventListener("submit", function(event){
+//     event.preventDefault();
+// })
 
 Array.from(csp_bun_close).map(el => {
     el.addEventListener('click', function(){
