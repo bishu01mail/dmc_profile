@@ -7,6 +7,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -68,7 +69,13 @@ li{
     box-shadow: unset !important;
 }
 .accordion{
-    // width: 400px;
+    .accordion-body{
+      ul{
+        li{
+          line-height: 20px;
+        }
+      }
+    }
 }
 .leverage_title{
     width: 400px !important;
@@ -212,7 +219,7 @@ li{
   p{
     font-size: 26px;
     color: #B9D0DD;
-    width: 245px;
+    width: 300px;
     text-transform: capitalize;
     line-height: 32px;
   }
@@ -329,6 +336,14 @@ li{
     background-color: #1c7eb5;
     border-color: #1c7eb5;
   }
+  &:active{
+    background-color: #1c7eb5;
+    border-color: #1c7eb5;
+  }
+  &:focus{
+    background-color: #1c7eb5;
+    border-color: #1c7eb5;
+  }
   span{
     vertical-align: middle;
   }
@@ -375,7 +390,7 @@ li{
     ul{
         li{
             a{
-                color: #A0A0A0;
+                color: #A0A0A0 !important;
                 text-decoration: none;
             }
             margin-right: 30px;
@@ -489,9 +504,14 @@ li{
         }
     }
     &:nth-child(2){
+        svg{
+          path{
+              fill: #F61C0D;
+          }
+        }
         &:hover{
             height: 440px;
-            background-color: #3b5998;
+            background-color: #F61C0D;
             color: #fff;
             &:hover{
                 svg{
