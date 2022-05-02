@@ -646,7 +646,13 @@ li{
   transition: all 1s;
   z-index: 2;
 }
-
+#msgClose{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
 // ==================== mobile tablet desktop =====================
 
 @media (max-width: 991px){

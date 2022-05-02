@@ -5,6 +5,7 @@ const csp_bun_close = document.querySelectorAll(".csp_bun_close");
 const modal = document.querySelectorAll(".modal");
 const submitContactForm = document.querySelector("#submitContactForm");
 const thankYouMsg = document.querySelector("#thankYouMsg");
+// const msgClose = document.querySelector("#msgClose");
 
 function drawer(props){
     
@@ -25,6 +26,9 @@ function cspVideo(videoUrl){
 
 }
 
+function msgClose(){
+    thankYouMsg.style.right = "-500px";
+}
 // submitContactForm.addEventListener("submit", function(event){
 //     event.preventDefault();
 // })

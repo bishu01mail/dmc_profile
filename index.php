@@ -16,12 +16,12 @@
 <body>
   <?php if(isset($_SESSION["thankYouMsg"])){ ?>
     <div id="thankYouMsg" class="alert alert-success" role="alert">
-      <?php echo $_SESSION["thankYouMsg"] ; ?>
+      <?php echo $_SESSION["thankYouMsg"] ; ?> <span id="msgClose" onclick="msgClose()"> &#10060; </span>
     </div>
   <?php } ?>
   <?php if(isset($_SESSION["errorMsg"])){ ?>
     <div id="thankYouMsg" class="alert alert-danger" role="alert">
-      <?php echo $_SESSION["errorMsg"] ; ?>
+      <?php echo $_SESSION["errorMsg"] ; ?> <span id="msgClose" onclick="msgClose()"> &#10060; </span>
     </div>
   <?php } ?>
     <div class="fluid-container">
@@ -498,13 +498,6 @@
               </div>
               <div class="contact_form_ p-5 mt-5 mt-lg-0" >
                 <h3 class='mb-4'>Just do it. no reason not too.</h3>
-                <?php 
-                if(isset($_SESSION["errorMsg"])){
-                ?>
-                <div class="alert alert-danger" role="alert">
-                  <?php echo $_SESSION["errorMsg"]; ?>
-                </div>
-                <?php } ?>
                 <form action="<?php echo htmlspecialchars('mail.php') ?>" method="post" id="submitContactForm">
                   <div class="row">
                     <div class="col-lg-6">

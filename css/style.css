@@ -719,6 +719,15 @@ li {
   z-index: 2;
 }
 
+#msgClose {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+}
+
 @media (max-width: 991px) {
   .testimonial_userNameDec_contant_video .desc_innerArea {
     width: unset;
