@@ -37,7 +37,7 @@ setTimeout(function(){
     thankYouMsg.style.right = "0";
     setTimeout(function(){
         thankYouMsg.style.right = "-500px";
-    }, 8000)
+    }, 10000)
 }, 1000)
 
 Array.from(csp_bun_close).map(el => {

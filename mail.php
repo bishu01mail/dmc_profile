@@ -25,7 +25,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             }
             else{
                 if($email!=NULL){
-                    // mail($to,$subject,$eMsg,$headers);
+                    mail($to,$subject,$eMsg,$headers);
                     $_SESSION["thankYouMsg"] = "Thanks for being awesome! I have received your message and would like to thank you for writing to me";
                     header("Location:/");
                 }
