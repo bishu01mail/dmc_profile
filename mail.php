@@ -10,9 +10,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $phoneNumber = test_input($_POST['phoneNumber']);
     $message = test_input($_POST['message']);
     $name = "$firstName $lastName";
-    $to = "bishu01mail@gmail.com";
+    $to = "derek@derekbennington.com";
     $subject = "Mail from derekbennington.com";
-    $eMsg = "Name <span>:</span> ".$name."\r\nEmail : ".$email."\r\nPhone : ".$phoneNumber."\r\nMessage : ".$message;
+    $eMsg = "Name : ".$name."\r\nEmail : ".$email."\r\nPhone : ".$phoneNumber."\r\nMessage : ".$message;
     $headers = "From: noreplay@derekbennington.com"; 
 
     if(!empty($firstName) && !empty($lastName) && !empty($email) && !empty($phoneNumber) && !empty($message)){
