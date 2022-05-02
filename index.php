@@ -14,6 +14,16 @@
 
 </head>
 <body>
+  <?php if(isset($_SESSION["thankYouMsg"])){ ?>
+    <div id="thankYouMsg" class="alert alert-success" role="alert">
+      <?php echo $_SESSION["thankYouMsg"] ; ?>
+    </div>
+  <?php } ?>
+  <?php if(isset($_SESSION["errorMsg"])){ ?>
+    <div id="thankYouMsg" class="alert alert-danger" role="alert">
+      <?php echo $_SESSION["errorMsg"] ; ?>
+    </div>
+  <?php } ?>
     <div class="fluid-container">
           <header class="header">
           <!-- navbar -->
@@ -440,7 +450,7 @@
                 <a class="defultIcon">
                 <div class="px-4">
                     <div class="defultIcon_area">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      <svg version="1.1" id="Layer_1" width="70" height="auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 461.001 461.001" style="enable-background:new 0 0 461.001 461.001;" xml:space="preserve">
                         <g>
                           <path d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728

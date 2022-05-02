@@ -638,6 +638,15 @@ li{
     }
 }
 
+#thankYouMsg{
+  width: 500px;
+  position: fixed;
+  right: -500px;
+  top: 20px;
+  transition: all 1s;
+  z-index: 2;
+}
+
 // ==================== mobile tablet desktop =====================
 
 @media (max-width: 991px){

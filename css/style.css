@@ -709,6 +709,16 @@ li {
   width: 100%;
 }
 
+#thankYouMsg {
+  width: 500px;
+  position: fixed;
+  right: -500px;
+  top: 20px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  z-index: 2;
+}
+
 @media (max-width: 991px) {
   .testimonial_userNameDec_contant_video .desc_innerArea {
     width: unset;
