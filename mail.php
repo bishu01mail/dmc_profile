@@ -12,7 +12,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $name = "$firstName $lastName";
     $to = "bishu01mail@gmail.com";
     $subject = "Mail from derekbennington.com";
-    $eMsg = "Name : ".$name."\r\n Email : ".$email."\r\n Phone : ".$phoneNumber."\r\n Message : ".$message;
+    $eMsg = "Name <span>:</span> ".$name."\r\nEmail : ".$email."\r\nPhone : ".$phoneNumber."\r\nMessage : ".$message;
     $headers = "From: noreplay@derekbennington.com"; 
 
     if(!empty($firstName) && !empty($lastName) && !empty($email) && !empty($phoneNumber) && !empty($message)){
