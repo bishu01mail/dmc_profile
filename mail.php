@@ -27,13 +27,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 if($email!=NULL){
                     // mail($to,$subject,$eMsg,$headers);
                     $_SESSION["thankYouMsg"] = "Thanks for being awesome! I have received your message and would like to thank you for writing to me";
-                    header("Location:derekbennington.com");
+                    header("Location:index.php");
                 }
             }
         
     }else{
         $_SESSION["errorMsg"] = "Please fill out this filed";
-        header("Location:derekbennington.com");
+        header("Location:index.php");
     }
     
 }
