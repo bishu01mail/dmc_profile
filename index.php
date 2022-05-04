@@ -30,24 +30,51 @@
             <div class="container">
               <nav class="d-lg-flex align-items-center justify-content-between nav pt-3">
                   <div class='menu_logo text-white'><img src="img/logo.png" /></div>
-                  <div class="d-flex align-items-center">
-                  <ul class="d-lg-flex d-none align-items-center mb-0 navManu">
-                      <li class="nav-item navItem">
-                          <a class="navLink">What I do</a>
-                      </li>
-                      <li class="nav-item navItem">
-                        <a class="navLink" >Who i work with</a>
-                      </li>
-                      <li class="nav-item navItem">
-                        <a class="navLink">About me</a>
-                      </li>
-                  </ul>
-                  <button onClick="drawer(true)" class="menuBtn" ><img src="img/menu.png" /></button>
+                  <!-- <div class="d-flex align-items-center">
+                    <ul class="d-lg-flex d-none align-items-center mb-0 navManu">
+                        <li class="nav-item navItem">
+                            <a class="navLink">What I do</a>
+                        </li>
+                        <li class="nav-item navItem">
+                          <a class="navLink" >Who i work with</a>
+                        </li>
+                        <li class="nav-item navItem">
+                          <a class="navLink">About me</a>
+                        </li>
+                    </ul>
+                    <button onClick="drawer(true)" class="menuBtn" ><img src="img/menu.png" /></button>
+                  </div> -->
+                  <div class="d-flex align-items-center top_social_icons">
+                    <a href="https://www.linkedin.com/in/derekbennington" target="_blank">
+                      <svg width="40" height="40" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clipPath="url(#clip0_916_607)">
+                          <path d="M60.1061 60.9361V60.9336H60.1211V38.9286C60.1211 28.1636 57.8036 19.8711 45.2187 19.8711C39.1687 19.8711 35.1087 23.1911 33.4512 26.3386H33.2762V20.8761H21.3438V60.9336H33.7687V41.0986C33.7687 35.8761 34.7587 30.8261 41.2262 30.8261C47.5987 30.8261 47.6937 36.7861 47.6937 41.4336V60.9361H60.1061Z" fill="white"/>
+                          <path d="M1.11719 20.875H13.5572V60.9325H1.11719V20.875Z" fill="white"/>
+                          <path d="M7.33 0.933594C3.3525 0.933594 0.125 4.16109 0.125 8.13859C0.125 12.1161 3.3525 15.4111 7.33 15.4111C11.3075 15.4111 14.535 12.1161 14.535 8.13859C14.5325 4.16109 11.305 0.933594 7.33 0.933594V0.933594Z" fill="white"/>
+                          </g>
+                          <defs>
+                          <clipPath id="clip0_916_607">
+                          <rect width="60" height="60" fill="white" transform="translate(0.125 0.933594)"/>
+                          </clipPath>
+                          </defs>
+                        </svg>
+                    </a>
+                    <a class="ms-3">
+                      <svg width="51" height="auto" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 461.001 461.001" style="enable-background:new 0 0 461.001 461.001;" xml:space="preserve">
+                        <g>
+                          <path style="fill:#F61C0D;" d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728
+                            c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137
+                            C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607
+                            c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"/>
+                        </g>
+                      </svg>
+                    </a>
                   </div>
               </nav>
           </div>
           <!-- {/* mobile navbar */} -->
-          <div class="mobile_nav">
+          <!-- <div class="mobile_nav">
               <button onClick="drawer(false)" class="btn cross_icon">
                   <img src="img/cross-sign.svg" class="w-100"/>
               </button>
@@ -62,7 +89,7 @@
                     <a class="navLink" href="#">About me</a>
                   </li>
               </ul>
-          </div>
+          </div> -->
           <!-- end navbar -->
           <div class="container">
             <div class="mobile_headerText row">
@@ -77,7 +104,7 @@
                       Does your business have what it takes? Let’s find out.
                     </p>
                   
-                    <a href="#" class="btn text-white btn_border btn_defult text-capitalize">Leave your competition in Innovation Dust</a>
+                    <a href="#contactForm" class="btn text-white btn_border btn_defult text-capitalize">Leave your competition in Innovation Dust</a>
                   </div>
                 </div>
               </div>
@@ -161,7 +188,7 @@
                   </div>
                   <div class='mt-5'>
                     <!-- asa header card -->
-                    <div class="Card p-4 mb-4">
+                    <!-- <div class="Card p-4 mb-4">
                         <h2 class='mb-3 text-capitalize'>Consultant</h2>
                         <p class='mb-0'>
                           Lead and direct you and your team through whatever journey lies ahead that creates significant value.
@@ -184,12 +211,64 @@
                         <p class='mb-0'>
                           Shed light on the simplic, yet complex,nature of human-centered problem-solving and invite you to engage and learn in new ways.
                         </p>
+                    </div> -->
+                    <div class="flip_card mb-4">
+                      <div class="flip_card-inner Card_item">
+                        <div class="flip_card-front p-3">
+                          <h2 class='text-capitalize'>Consultant</h2>
+                          <img class="flip_icon" src="img/rotate.svg" alt="">
+                        </div>
+                        <div class="flip_card-back p-3">
+                          <p class='mb-0'>
+                            Shed light on the simplic, yet complex,nature of human-centered problem-solving and invite you to engage and learn in new ways.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip_card mb-4">
+                      <div class="flip_card-inner Card_item">
+                        <div class="flip_card-front p-3">
+                          <h2 class='text-capitalize'>Coach</h2>
+                          <img class="flip_icon" src="img/rotate.svg" alt="">
+                        </div>
+                        <div class="flip_card-back p-3">
+                          <p class='mb-0'>
+                            Support and guide you, while you take the leading role in learning and applying the concepts, tools and processes.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip_card mb-4">
+                      <div class="flip_card-inner Card_item">
+                        <div class="flip_card-front p-3">
+                          <h2 class='text-capitalize'>Professor</h2>
+                          <img class="flip_icon" src="img/rotate.svg" alt="">
+                        </div>
+                        <div class="flip_card-back p-3">
+                          <p class='mb-0'>
+                            Teach, coach, and impart new ways of thinking, while learning how to apply the concepts, tools, and process to real life opportunities and challenges.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip_card mb-4 mb-lg-0">
+                      <div class="flip_card-inner Card_item">
+                        <div class="flip_card-front p-3">
+                          <h2 class='text-capitalize'>Author</h2>
+                          <img class="flip_icon" src="img/rotate.svg" alt="">
+                        </div>
+                        <div class="flip_card-back p-3">
+                          <p class='mb-0'>
+                            Shed light on the simplic, yet complex,nature of human-centered problem-solving and invite you to engage and learn in new ways.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-lg-6">
-                <div class='Leverage p-3 pt-4'> 
+                <div class='Leverage px-3 py-4'> 
                 <div class="leverage_title">
                     <h1 class='text-uppercase'>I leverage</h1> 
                     <!-- <p>
@@ -311,7 +390,7 @@
                   </div>
                   <div class='mt-5'>
                     <!-- Creative confidence -->
-                    <div class="Card p-4 mb-4">
+                    <!-- <div class="Card p-4 mb-4">
                         <h2 class='mb-3 text-capitalize'>Creative confidence</h2>
                         <p class='mb-0'>
                           Creativity is innate and confidence is a gift. Nurturing people’s faith in themselves to create ideas and share them is powerful and it is an essential ingredient to innovation.                        
@@ -334,7 +413,61 @@
                         <p class='mb-0'>
                           Innovation isn’t something that just happens and it is something you cannot just pull off the shelf and install in the business. Every business is unique, people are unique, and what you do is unique. Therefore, you should have a custom operating system that allows your business to thrive under any conditions.                        
                         </p>
+                    </div> -->
+
+                    <div class="flip_card mb-4">
+                      <div class="flip_card-inner Card_item">
+                        <div class="flip_card-front p-3">
+                          <h2 class='text-capitalize'>Creative confidence</h2>
+                          <img class="flip_icon" src="img/rotate.svg" alt="">
+                        </div>
+                        <div class="flip_card-back p-3">
+                          <p class='mb-0'>
+                            Creativity is innate and confidence is a gift. Nurturing people’s faith in themselves to create ideas and share them is powerful and it is an essential ingredient to innovation.                        
+                          </p>
+                        </div>
+                      </div>
                     </div>
+                    <div class="flip_card mb-4">
+                      <div class="flip_card-inner Card_item">
+                        <div class="flip_card-front p-3">
+                          <h2 class='text-capitalize'>Culture that nurtures creativity and innovation</h2>
+                          <img class="flip_icon" src="img/rotate.svg" alt="">
+                        </div>
+                        <div class="flip_card-back p-3">
+                          <p class='mb-0'>
+                          To unlock the creative powerhouse inside, creativity and innovation has to become a part of the DNA of the business, with everyone tuned to the endless possibilities to improve and grow.                        
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip_card mb-4">
+                      <div class="flip_card-inner Card_item">
+                        <div class="flip_card-front p-3">
+                          <h2 class='text-capitalize'>Innovative solutions that drive growth and efficiencies</h2>
+                          <img class="flip_icon" src="img/rotate.svg" alt="">
+                        </div>
+                        <div class="flip_card-back p-3">
+                          <p class='mb-0'>
+                          Innovation is a necessity to sustain a healthy and successful business. Innovations are what rockets you to the next level, with creativity fueling the way.                        
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip_card mb-4 mb-lg-0">
+                      <div class="flip_card-inner Card_item">
+                        <div class="flip_card-front p-3">
+                          <h2 class='text-capitalize'>Custom tailored innovation operating systems</h2>
+                          <img class="flip_icon" src="img/rotate.svg" alt="">
+                        </div>
+                        <div class="flip_card-back p-3">
+                          <p class='mb-0'>
+                          Innovation isn’t something that just happens and it is something you cannot just pull off the shelf and install in the business. Every business is unique, people are unique, and what you do is unique. Therefore, you should have a custom operating system that allows your business to thrive under any conditions.                        
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>
@@ -426,7 +559,7 @@
               </h1>
               <!-- social icons -->
               <div class="socialIcons">
-                <a href="https://www.linkedin.com/in/derekbennington" class="defultIcon">
+                <a href="https://www.linkedin.com/in/derekbennington" target="_blank" class="defultIcon">
                 <div class="px-4">
                     <div class="defultIcon_area">
                         <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -535,7 +668,7 @@
         <footer class="footer py-5">
           <div class="footer_contant_area text-center">
                 <img src="img/logo.png" alt="logo" width="262px"/>
-               <ul class='d-lg-flex flex-lg-row flex-md-column mt-5'>
+               <!-- <ul class='d-lg-flex flex-lg-row flex-md-column mt-5'>
                    <li>
                       <a>My process and philosophy</a>
                    </li>
@@ -554,9 +687,9 @@
                    <li>
                       <a>My story</a>
                    </li>
-               </ul>
-               <ul class="social_icon d-flex justify-content-center mt-5">
-                   <li><a href="https://www.linkedin.com/in/derekbennington">
+               </ul> -->
+               <ul class="social_icon d-flex justify-content-center mt-5 ps-0">
+                   <li><a href="https://www.linkedin.com/in/derekbennington" target="_blank">
                       <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clipPath="url(#clip0_916_607)">
                         <path d="M60.1061 60.9361V60.9336H60.1211V38.9286C60.1211 28.1636 57.8036 19.8711 45.2187 19.8711C39.1687 19.8711 35.1087 23.1911 33.4512 26.3386H33.2762V20.8761H21.3438V60.9336H33.7687V41.0986C33.7687 35.8761 34.7587 30.8261 41.2262 30.8261C47.5987 30.8261 47.6937 36.7861 47.6937 41.4336V60.9361H60.1061Z" fill="white"/>
