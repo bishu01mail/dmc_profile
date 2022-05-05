@@ -673,7 +673,7 @@ li{
 .flip_card {
   background-color: transparent;
   width: 100%;
-  height: 150px;
+  min-height: 150px;
   perspective: 1000px;
 }
 .flip_icon{
@@ -715,6 +715,10 @@ li{
   background-color: #1095DF;
   color: white;
   transform: rotateY(180deg);
+}
+
+.aslcSection{
+  min-height: 922.2px;
 }
 
 // ==================== mobile tablet desktop =====================

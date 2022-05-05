@@ -59,7 +59,7 @@
                           </defs>
                         </svg>
                     </a>
-                    <a class="ms-3">
+                    <a class="ms-3" data-toggle="tooltip" title="Coming Soon">
                       <svg width="51" height="auto" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="0 0 461.001 461.001" style="enable-background:new 0 0 461.001 461.001;" xml:space="preserve">
                         <g>
@@ -176,7 +176,7 @@
             </div>
           </div>
           <!-- {/* As a, I leverage, To create */} -->
-          <div class="container">
+          <div class="container aslcSection">
             <div class="row">
               <div class="col-lg-3">
                 <div class="asa pt-4">
@@ -220,7 +220,7 @@
                         </div>
                         <div class="flip_card-back p-3">
                           <p class='mb-0'>
-                            Shed light on the simplic, yet complex,nature of human-centered problem-solving and invite you to engage and learn in new ways.
+                            Lead and direct you and your team through whatever journey lies ahead that creates significant value.
                           </p>
                         </div>
                       </div>
@@ -251,7 +251,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="flip_card mb-4 mb-lg-0">
+                    <div class="flip_card mb-4">
                       <div class="flip_card-inner Card_item">
                         <div class="flip_card-front p-3">
                           <h2 class='text-capitalize'>Author</h2>
@@ -454,7 +454,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="flip_card mb-4 mb-lg-0">
+                    <div class="flip_card mb-4">
                       <div class="flip_card-inner Card_item">
                         <div class="flip_card-front p-3">
                           <h2 class='text-capitalize'>Custom tailored innovation operating systems</h2>
@@ -580,7 +580,7 @@
                     </div>
                 </div>
                 </a>
-                <a class="defultIcon">
+                <a class="defultIcon" data-toggle="tooltip" title="Coming Soon">
                 <div class="px-4">
                     <div class="defultIcon_area">
                       <svg version="1.1" id="Layer_1" width="70" height="auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -703,7 +703,7 @@
                         </defs>
                       </svg>
                    </a></li>
-                   <li><a >
+                   <li><a data-toggle="tooltip" title="Coming Soon">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="0 0 461.001 461.001" style="enable-background:new 0 0 461.001 461.001;" xml:space="preserve">
                         <g>
@@ -752,5 +752,7 @@
         
 <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></Script>
 <script src="js/custom.js"></script>
+<script>
+</script>
 </body>
 </html>

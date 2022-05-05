@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>creative super power</title>
+    <link rel="icon" href="img/favicon.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -140,72 +141,14 @@
                         Decision Point
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="modal fade csp_modal" id="csp_modal" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <button type="button" class="btn-close csp_bun_close ms-auto" data-bs-dismiss="modal"
-                        aria-label="Close">
-                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 503.021 503.021"
-                            style="enable-background:new 0 0 503.021 503.021;" xml:space="preserve">
-                            <g>
-                                <g>
-                                    <path fill="white" d="M491.613,75.643l-64.235-64.235c-15.202-15.202-39.854-15.202-55.056,0L251.507,132.222L130.686,11.407
-                                c-15.202-15.202-39.853-15.202-55.055,0L11.401,75.643c-15.202,15.202-15.202,39.854,0,55.056l120.821,120.815L11.401,372.328
-                                c-15.202,15.202-15.202,39.854,0,55.056l64.235,64.229c15.202,15.202,39.854,15.202,55.056,0l120.815-120.814l120.822,120.814
-                                c15.202,15.202,39.854,15.202,55.056,0l64.235-64.229c15.202-15.202,15.202-39.854,0-55.056L370.793,251.514l120.82-120.815
-                                C506.815,115.49,506.815,90.845,491.613,75.643z" />
-                                </g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                        </svg>
-                    </button>
-                    <div class="modal-body">
-                        <div class="csp_videosPlay_Links text-capitalize p-2">
-                            <div onclick="cspVideo('video/DU 3150 Needs Wants Desires and Job to be Done.mp4')" class="py-2">1. DU 3150 Needs Wants Desires and Job to be Done</div>
-                            <div onclick="cspVideo('video/DU 3150 Needs Mapping and Opportunity Points.mp4')" class="py-2">2. DU 3150 Needs Mapping and Opportunity Points</div>
-                            <div onclick="cspVideo('video/DU 3150 Needs Mapping Example.mp4')" class="py-2">3. DU 3150 Needs Mapping Example</div>
-                            <div onclick="cspVideo('video/Du 3150 Empathize - Empathy Mapping And Example.m4v')" class="py-2">4. Du 3150 Empathize - Empathy Mapping And Example</div>
-                        </div>
-                        <video controls class="csp_modal_video">
-                            <source src="video/DU 3150 Needs Wants Desires and Job to be Done.mp4" type="video/mp4" />
-                        </video>
+                <div class="csp_ideaItem" data-bs-toggle="modal" data-bs-target="#csp_modal_6">
+                    <div class="csp_grapIdeaContent p-3">
+                        Real world application
                     </div>
                 </div>
             </div>
         </div>
+        
         <div class="modal fade csp_modal" id="csp_modal_1st" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog">
@@ -224,36 +167,6 @@
                                 C506.815,115.49,506.815,90.845,491.613,75.643z" />
                                 </g>
                             </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
-                            <g>
-                            </g>
                         </svg>
                     </button>
                     <div class="modal-body">
@@ -267,6 +180,73 @@
                 </div>
             </div>
         </div>
+
+        <div class="modal fade csp_modal" id="csp_modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <button type="button" class="btn-close csp_bun_close ms-auto" data-bs-dismiss="modal"
+                        aria-label="Close">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 503.021 503.021"
+                            style="enable-background:new 0 0 503.021 503.021;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path fill="white" d="M491.613,75.643l-64.235-64.235c-15.202-15.202-39.854-15.202-55.056,0L251.507,132.222L130.686,11.407
+                                c-15.202-15.202-39.853-15.202-55.055,0L11.401,75.643c-15.202,15.202-15.202,39.854,0,55.056l120.821,120.815L11.401,372.328
+                                c-15.202,15.202-15.202,39.854,0,55.056l64.235,64.229c15.202,15.202,39.854,15.202,55.056,0l120.815-120.814l120.822,120.814
+                                c15.202,15.202,39.854,15.202,55.056,0l64.235-64.229c15.202-15.202,15.202-39.854,0-55.056L370.793,251.514l120.82-120.815
+                                C506.815,115.49,506.815,90.845,491.613,75.643z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                    <div class="modal-body">
+                        <div class="csp_videosPlay_Links text-capitalize p-2">
+                            <div onclick="cspVideo('video/DU 3150 Needs Wants Desires and Job to be Done.mp4')" class="py-2">1. DU 3150 Needs Wants Desires and Job to be Done</div>
+                            <div onclick="cspVideo('video/DU 3150 Needs Mapping and Opportunity Points.mp4')" class="py-2">2. DU 3150 Needs Mapping and Opportunity Points</div>
+                            <div onclick="cspVideo('video/DU 3150 Needs Mapping Example.mp4')" class="py-2">3. DU 3150 Needs Mapping Example</div>
+                            <div onclick="cspVideo('video/Du 3150 Empathize - Empathy Mapping And Example.m4v')" class="py-2">4. Du 3150 Empathize - Empathy Mapping And Example</div>
+                        </div>
+                        <video controls class="csp_modal_video">
+                            <source src="video/DU 3150 Needs Wants Desires and Job to be Done.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade csp_modal" id="csp_modal_6" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <button type="button" class="btn-close csp_bun_close ms-auto" data-bs-dismiss="modal"
+                        aria-label="Close">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 503.021 503.021"
+                            style="enable-background:new 0 0 503.021 503.021;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path fill="white" d="M491.613,75.643l-64.235-64.235c-15.202-15.202-39.854-15.202-55.056,0L251.507,132.222L130.686,11.407
+                                c-15.202-15.202-39.853-15.202-55.055,0L11.401,75.643c-15.202,15.202-15.202,39.854,0,55.056l120.821,120.815L11.401,372.328
+                                c-15.202,15.202-15.202,39.854,0,55.056l64.235,64.229c15.202,15.202,39.854,15.202,55.056,0l120.815-120.814l120.822,120.814
+                                c15.202,15.202,39.854,15.202,55.056,0l64.235-64.229c15.202-15.202,15.202-39.854,0-55.056L370.793,251.514l120.82-120.815
+                                C506.815,115.49,506.815,90.845,491.613,75.643z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                    <div class="modal-body">
+                        <div class="csp_videosPlay_Links text-capitalize p-2">
+                            <div onclick="cspVideo('www.youtube.com/watch?v=hnSPmcZjEqs&ab_channel=healthymagination')" class="py-2">1. DU 3150 Needs Wants Desires and Job to be Done</div>
+                        </div>
+                        <div class="csp_modal_video">
+                            <iframe width="100%" height="100%" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></Script>
