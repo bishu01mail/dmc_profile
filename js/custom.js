@@ -1,5 +1,5 @@
 
-var yPlayer;
+var player;
 const mobileDrawer = document.querySelector(".mobile_nav");
 const body = document.querySelector("body");
 const csp_bun_close = document.querySelectorAll(".csp_bun_close");
@@ -26,13 +26,19 @@ function cspVideo(videoUrl){
     }
 
 }
+function cspYTvideo(videoUrl){
+    const csp_modal_video = document.querySelector(".csp_modal_video iframe");
+
+    if(videoUrl){
+        csp_modal_video.src = videoUrl;
+    }
+
+}
 
 function msgClose(){
     thankYouMsg.style.right = "-500px";
 }
-// submitContactForm.addEventListener("submit", function(event){
-//     event.preventDefault();
-// })
+
 
 setTimeout(function(){
     thankYouMsg.style.right = "0";
@@ -56,7 +62,7 @@ Array.from(modal).map(el => {
 // this function gets called when API is ready to use
 function onYouTubePlayerAPIReady() {
     // create the global player from the specific iframe (#video)
-    player = new YT.Player('yVideo', {
+    player = new YT.Player('video', {
         events: {
             // call this function when player is ready to use
             'onReady': onPlayerReady

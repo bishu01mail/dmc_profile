@@ -126,7 +126,7 @@
                         Empathize and Opportunity Point
                     </div>
                 </div>
-                <div class="csp_ideaItem" >
+                <div class="csp_ideaItem" data-bs-toggle="modal" data-bs-target="#csp_modal_3">
                     <div class="csp_grapIdeaContent p-3">
                         Ideas
                     </div>
@@ -148,7 +148,42 @@
                 </div>
             </div>
         </div>
-        
+        <!-- local video player -->
+
+        <div class="modal fade csp_modal" id="csp_modal_3" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <button type="button" class="btn-close csp_bun_close ms-auto" data-bs-dismiss="modal"
+                        aria-label="Close">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 503.021 503.021"
+                            style="enable-background:new 0 0 503.021 503.021;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path fill="white" d="M491.613,75.643l-64.235-64.235c-15.202-15.202-39.854-15.202-55.056,0L251.507,132.222L130.686,11.407
+                                c-15.202-15.202-39.853-15.202-55.055,0L11.401,75.643c-15.202,15.202-15.202,39.854,0,55.056l120.821,120.815L11.401,372.328
+                                c-15.202,15.202-15.202,39.854,0,55.056l64.235,64.229c15.202,15.202,39.854,15.202,55.056,0l120.815-120.814l120.822,120.814
+                                c15.202,15.202,39.854,15.202,55.056,0l64.235-64.229c15.202-15.202,15.202-39.854,0-55.056L370.793,251.514l120.82-120.815
+                                C506.815,115.49,506.815,90.845,491.613,75.643z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                    <div class="modal-body">
+                        <div class="csp_videosPlay_Links text-capitalize">
+                            <div onclick="cspVideo('video/WBC_Final.mp4')" class="p-2">1. Wouldn't it be cool if...?</div>
+                            <div onclick="cspVideo('video/HMW_Final.mp4')" class="p-2">2. How might I/we...?</div>
+                            <div onclick="cspVideo('video/Random Stimulus_Final.mp4')" class="p-2">3. Random Stimulus</div>
+                        </div>
+                        <video controls class="csp_modal_video">
+                            <source src="video/WBC_Final.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="modal fade csp_modal" id="csp_modal_1st" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog">
@@ -238,13 +273,15 @@
                     </button>
                     <div class="modal-body">
                         <div class="csp_videosPlay_Links text-capitalize p-2">
-                            <div onclick="cspVideo('https://www.youtube.com/embed/zpOULjyy-n8?rel=0')" class="py-2">1. DU 3150 Needs Wants Desires and Job to be Done</div>
+                            <div onclick="cspYTvideo('https://www.youtube.com/embed/hnSPmcZjEqs?enablejsapi=1&html5=1')" class="py-2">1. GE Scanner Adventure</div>
+                            <div onclick="cspYTvideo('https://www.youtube.com/embed/M66ZU2PCIcM?enablejsapi=1&html5=1')" class="py-2">2. IDEO Shopping Cart</div>
                         </div>
                         <div class="csp_modal_video">
-                            <iframe id="yVideo" width="100%" height="100%" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                            <iframe id="video" width="100%" height="100%" class="embed-responsive-item" src="https://www.youtube.com/embed/hnSPmcZjEqs?enablejsapi=1&html5=1" title="GE Scanner Adventure" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
+                <!-- enablejsapi=1&html5=1 -->
             </div>
         </div>
 

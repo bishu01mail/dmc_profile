@@ -1083,10 +1083,6 @@ li {
   font-weight: bold;
 }
 
-.csp_ideasImg .csp_ideaItem:nth-child(3):hover {
-  background-color: unset;
-}
-
 .csp_ideasImg .csp_ideaItem:nth-child(4) {
   width: 25%;
 }
