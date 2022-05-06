@@ -215,11 +215,12 @@
                 </div>
             </div>
         </div>
+        <!-- youtube player -->
         <div class="modal fade csp_modal" id="csp_modal_6" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <button type="button" class="btn-close csp_bun_close ms-auto" data-bs-dismiss="modal"
+                    <button type="button" class="btn-close csp_bun_close ms-auto" id="yPlayer" data-bs-dismiss="modal"
                         aria-label="Close">
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 503.021 503.021"
@@ -237,10 +238,10 @@
                     </button>
                     <div class="modal-body">
                         <div class="csp_videosPlay_Links text-capitalize p-2">
-                            <div onclick="cspVideo('www.youtube.com/watch?v=hnSPmcZjEqs&ab_channel=healthymagination')" class="py-2">1. DU 3150 Needs Wants Desires and Job to be Done</div>
+                            <div onclick="cspVideo('https://www.youtube.com/embed/zpOULjyy-n8?rel=0')" class="py-2">1. DU 3150 Needs Wants Desires and Job to be Done</div>
                         </div>
                         <div class="csp_modal_video">
-                            <iframe width="100%" height="100%" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                            <iframe id="yVideo" width="100%" height="100%" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

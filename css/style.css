@@ -745,7 +745,7 @@ li {
 .flip_card {
   background-color: transparent;
   width: 100%;
-  min-height: 150px;
+  height: 150px;
   -webkit-perspective: 1000px;
           perspective: 1000px;
 }
@@ -1180,6 +1180,7 @@ li {
 
 .csp_modal_video {
   width: 100%;
+  height: 500px;
 }
 
 .csp_videosPlay_Links {

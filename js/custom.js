@@ -1,4 +1,5 @@
 
+var yPlayer;
 const mobileDrawer = document.querySelector(".mobile_nav");
 const body = document.querySelector("body");
 const csp_bun_close = document.querySelectorAll(".csp_bun_close");
@@ -50,3 +51,29 @@ Array.from(modal).map(el => {
         el.querySelector(".csp_modal_video").pause()
     })
 })
+
+
+// this function gets called when API is ready to use
+function onYouTubePlayerAPIReady() {
+    // create the global player from the specific iframe (#video)
+    player = new YT.Player('yVideo', {
+        events: {
+            // call this function when player is ready to use
+            'onReady': onPlayerReady
+        }
+    });
+}
+
+function onPlayerReady(event) {
+    var stopButton = document.getElementById("yPlayer");
+    stopButton.addEventListener("click", function() {
+        player.stopVideo();
+    });
+
+}
+
+// Inject YouTube API script
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/player_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
