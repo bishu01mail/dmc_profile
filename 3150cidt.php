@@ -172,9 +172,9 @@
                     </button>
                     <div class="modal-body">
                         <div class="csp_videosPlay_Links text-capitalize">
-                            <div onclick="cspVideo('video/WBC_Final.mp4')" class="p-2">1. Wouldn't it be cool if...?</div>
-                            <div onclick="cspVideo('video/HMW_Final.mp4')" class="p-2">2. How might I/we...?</div>
-                            <div onclick="cspVideo('video/Random Stimulus_Final.mp4')" class="p-2">3. Random Stimulus</div>
+                            <div onclick="cspVideo(this,'video/WBC_Final.mp4')" class="p-2">1. Wouldn't it be cool if...?</div>
+                            <div onclick="cspVideo(this,'video/HMW_Final.mp4')" class="p-2">2. How might I/we...?</div>
+                            <div onclick="cspVideo(this,'video/Random Stimulus_Final.mp4')" class="p-2">3. Random Stimulus</div>
                         </div>
                         <video controls class="csp_modal_video">
                             <source src="video/WBC_Final.mp4" type="video/mp4" />
@@ -206,7 +206,7 @@
                     </button>
                     <div class="modal-body">
                         <div class="csp_videosPlay_Links text-capitalize">
-                            <div onclick="cspVideo('video/DU 3150 Roadmap and Creative Diamond.mp4')" class="p-2">1. Roadmap and Creative Diamond</div>
+                            <div onclick="cspVideo(this,'video/DU 3150 Roadmap and Creative Diamond.mp4')" class="p-2">1. Roadmap and Creative Diamond</div>
                         </div>
                         <video controls class="csp_modal_video">
                             <source src="video/DU 3150 Roadmap and Creative Diamond.mp4" type="video/mp4" />
@@ -238,10 +238,10 @@
                     </button>
                     <div class="modal-body">
                         <div class="csp_videosPlay_Links text-capitalize p-2">
-                            <div onclick="cspVideo('video/DU 3150 Needs Wants Desires and Job to be Done.mp4')" class="py-2">1. DU 3150 Needs Wants Desires and Job to be Done</div>
-                            <div onclick="cspVideo('video/DU 3150 Needs Mapping and Opportunity Points.mp4')" class="py-2">2. DU 3150 Needs Mapping and Opportunity Points</div>
-                            <div onclick="cspVideo('video/DU 3150 Needs Mapping Example.mp4')" class="py-2">3. DU 3150 Needs Mapping Example</div>
-                            <div onclick="cspVideo('video/Du 3150 Empathize - Empathy Mapping And Example.m4v')" class="py-2">4. Du 3150 Empathize - Empathy Mapping And Example</div>
+                            <div onclick="cspVideo(this,'video/DU 3150 Needs Wants Desires and Job to be Done.mp4')" class="py-2">1. DU 3150 Needs Wants Desires and Job to be Done</div>
+                            <div onclick="cspVideo(this,'video/DU 3150 Needs Mapping and Opportunity Points.mp4')" class="py-2">2. DU 3150 Needs Mapping and Opportunity Points</div>
+                            <div onclick="cspVideo(this,'video/DU 3150 Needs Mapping Example.mp4')" class="py-2">3. DU 3150 Needs Mapping Example</div>
+                            <div onclick="cspVideo(this,'video/Du 3150 Empathize - Empathy Mapping And Example.m4v')" class="py-2">4. Du 3150 Empathize - Empathy Mapping And Example</div>
                         </div>
                         <video controls class="csp_modal_video">
                             <source src="video/DU 3150 Needs Wants Desires and Job to be Done.mp4" type="video/mp4" />

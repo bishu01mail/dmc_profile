@@ -18,8 +18,10 @@ function drawer(props){
 }
 
  
-function cspVideo(videoUrl){
-    const csp_modal_video = document.querySelector(".csp_modal_video");
+function cspVideo(el,videoUrl){
+    // const csp_modal_video = document.querySelector(".csp_modal_video");
+
+    const csp_modal_video= el.parentElement.nextElementSibling;
 
     if(videoUrl){
         csp_modal_video.src = videoUrl;
